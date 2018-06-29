@@ -1,0 +1,189 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #503612;
+	background-image: url(../img/background_repeater.gif);
+	background-repeat: repeat;
+	/* margin: auto;
+	padding: 0; */
+}
+
+.container header .topbar{
+	/* width: 964px; */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	width: 173px;
+	height: 94px;
+}
+
+.translate{
+	color: #b98822;
+	font-size: 14px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 2px;
+}
+
+.translate:hover{
+	color: #b98822;
+}
+
+nav{
+	text-transform: uppercase;
+	margin: auto;
+}
+
+
+.main-navbar {
+	padding: 3px;
+	width: 923px;
+	border: 1px solid #b87f1b;
+}
+@media (max-width: 991px) {
+	.main-navbar {
+		width: 100%;
+	}
+}
+
+.main-navbar li a{
+	font-size: 11px;
+	color: #2e0e09;
+	padding: 9px 0;
+	font-weight: bold;
+	height: 31px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+	}
+
+.navbar-default{
+	background: transparent;
+	border: none;
+}
+
+.main-navbar li a:link, .main-navbar li a:visited{
+	padding: 6px 18px;
+	width: 100%;
+	text-decoration: none;
+	float: left;
+	background: #f0efea;
+	display: inline-block;
+	text-align: center;
+	border-right: 1px solid #928b81;
+}
+
+.main-navbar li.active a{
+	background: #b87f1b;
+	color: #FFF;
+}
+
+.navbar-right{
+	margin-top: -50px;
+}
+.navbar-right li a{
+	font-size: 12px;
+	color: #f0efea;
+	text-decoration: none;
+}
+.navbar-right li a:hover{
+	background: transparent;
+	text-decoration: underline;
+}
+
+.caption {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+	width: 336px;
+	height: 199px;
+	text-align: center;
+	color: #fff;
+  z-index: 10;
+	display: flex;
+	align-items: center;
+}
+
+
+.carouselCaptionBack1 {
+	background-color: #fff;
+	background-image: url("../img/frame1_tag_box.png");
+}
+.carouselCaptionBack2 {
+	z-index: 1000;
+	background-image: url("../img/frame2_tag_box.png");
+}
+.carouselCaptionBack3 {
+	z-index: 1000;
+	background-image: url("../img/frame3_tag_box.png");
+}
+
+/*  */
+/* @media (max-width: 990px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+} */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 84, Z:/Eleazer/Premium/Alion/src/stylesheets/layout/_header.scss */
+  .navbar-default .navbar-header {
+    float: none;
+  }
+  /* line 89, Z:/Eleazer/Premium/Alion/src/stylesheets/layout/_header.scss */
+  .navbar-default .navbar-brand img {
+    width: auto;
+  }
+  /* line 94, Z:/Eleazer/Premium/Alion/src/stylesheets/layout/_header.scss */
+  .navbar-default .navbar-toggle {
+    display: block;
+  }
+  /* line 97, Z:/Eleazer/Premium/Alion/src/stylesheets/layout/_header.scss */
+  .navbar-default .navbar-toggle .icon-bar {
+    height: 4px;
+    width: 30px;
+  }
+  /* line 102, Z:/Eleazer/Premium/Alion/src/stylesheets/layout/_header.scss */
+  .navbar-default .navbar-collapse.collapse {
+    display: none !important;
+  }
+  /* line 105, Z:/Eleazer/Premium/Alion/src/stylesheets/layout/_header.scss */
+  .navbar-default .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  /* line 110, Z:/Eleazer/Premium/Alion/src/stylesheets/layout/_header.scss */
+  .navbar-default ul.navbar-nav {
+    float: none !important;
+    text-align: center;
+  }
+  /* line 114, Z:/Eleazer/Premium/Alion/src/stylesheets/layout/_header.scss */
+  .navbar-default ul.navbar-nav > li {
+    width: 100%;
+  }
+}
+/*  */
