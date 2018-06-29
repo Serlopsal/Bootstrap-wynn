@@ -102,6 +102,33 @@ body{
   color: #fff !important;
 }
 
+.caption {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+	width: 336px;
+	height: 199px;
+	text-align: center;
+	color: #fff;
+  z-index: 10;
+	display: flex;
+	align-items: center;
+}
+
+
+.carouselCaptionBack1 {
+	background-color: #fff;
+	background-image: url("../img/frame1_tag_box.png");
+}
+.carouselCaptionBack2 {
+	z-index: 1000;
+	background-image: url("../img/frame2_tag_box.png");
+}
+.carouselCaptionBack3 {
+	z-index: 1000;
+	background-image: url("../img/frame3_tag_box.png");
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-default .navbar-header {
     float: none;
